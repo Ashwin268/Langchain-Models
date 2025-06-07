@@ -1,4 +1,4 @@
-## This project showcases an advanced LLM-based application using LangChain to integrate multiple language models, including OpenAI, Claude (Anthropic), and Google PaLM/Vertex AI. It supports dynamic prompt handling, multi-model querying, and flexible output generation based on user input or business logic.
+## This project showcases an advanced LLM-based application using LangChain to integrate multiple language models, including OpenAI, Claude (Anthropic), and Google Gemini AI. It supports dynamic prompt handling, multi-model querying, and flexible output generation based on user input or business logic.
 
 🚀 Key Features:
 
