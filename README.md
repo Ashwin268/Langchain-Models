@@ -1,36 +1,49 @@
-## This project showcases an advanced LLM-based application using LangChain to integrate multiple language models, including OpenAI, Claude (Anthropic), and Google Gemini AI. It supports dynamic prompt handling, multi-model querying, and flexible output generation based on user input or business logic.
+## ⚡ Advanced LLM-Powered Application using LangChain
 
-🚀 Key Features:
+This project showcases an advanced LLM-based application using **LangChain** to integrate multiple language models and embedding providers including **OpenAI**, **Claude (Anthropic)**, **Google Gemini AI**, and **Hugging Face**. It supports **dynamic prompt handling**, **multi-model querying**, and **flexible output generation** based on user input or business logic. Embedding models are used to power semantic search and retrieval-based tasks.
 
-🔗 Multi-LLM integration: OpenAI (gpt-4), Claude, and Google models via API keys
+---
 
-🧠 Chat-based workflows using ChatOpenAI, ChatGoogle, and Claude APIs
+### 🚀 Key Features
 
-🧩 Modular architecture using LangChain's prompt templates and chains
+* 🔗 **Multi-LLM integration**:
+  OpenAI (GPT-4), Claude, Google Gemini, and Hugging Face (local and API-based)
 
-📡 Real-time data fetching & user input processing
+* 🧠 **Chat-based workflows** using `ChatOpenAI`, `ChatGoogle`, `ChatAnthropic`, and `ChatHuggingFace`
 
-💬 Natural language to SQL conversion
+* 🧩 **Modular architecture** using LangChain's prompt templates, chains, and tools
 
-🔐 Secure API key handling (via .env)
+* 📡 **Real-time data fetching**, user input processing, and SQL query generation via LLMs
 
-🛠 Built using:
+* 💬 **Natural language to SQL conversion** using integrated language models
 
-Python
+* 🧠 **Embeddings integration**:
 
-LangChain
+  * OpenAI embeddings (`OpenAIEmbeddings`)
+  * Hugging Face embeddings (`HuggingFaceEmbeddings`)
+  * Supports both local and hosted models
 
-OpenAI API
+* 🔐 **Secure API key handling** via `.env` for all providers
 
-Claude (Anthropic) API
+---
 
-🧰 Tech Stack
-Python
+### 🛠 Built Using
 
-LangChain
+* Python
+* LangChain
+* OpenAI API
+* Claude (Anthropic) API
+* Google Gemini API
+* Hugging Face Inference API & Local Models
 
-OpenAI API
+---
 
-Claude (Anthropic) API
+### 🧰 Tech Stack
 
-Google Gemini AI
+* **Python**
+* **LangChain**
+* **OpenAI GPT**
+* **Anthropic Claude**
+* **Google Gemini**
+* **Hugging Face** (Local & API models)
+* **Hugging Face & OpenAI Embeddings**
