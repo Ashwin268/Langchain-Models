@@ -20,7 +20,7 @@ This project showcases an advanced LLM-based application using **LangChain** to 
 * 🧠 **Embeddings integration**:
 
   * OpenAI embeddings (`OpenAIEmbeddings`)
-  * Hugging Face embeddings (`HuggingFaceEmbeddings`)
+  * Hugging Face embeddings (`HuggingFaceEmbeddings`) used for semantic document similarity
   * Supports both local and hosted models
 
 * 🔐 **Secure API key handling** via `.env` for all providers
